@@ -1,0 +1,86 @@
+.header{
+    padding: 0 120px;
+    background-color: #F0EADC !important;
+}
+.navbar{
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 64px;
+    position: relative;
+}
+.navbar::after{
+    content: url(../../assets/image/sphire.png);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 45px;
+    left: -160px;
+  }
+.auth button{
+    font-family: "Recolata";
+    font-weight: 800;
+
+}
+.auth button:nth-child(1){
+    margin-right: 37px;
+}
+.auth button:nth-child(2){
+    padding: 12px 35px;
+    background-color: #FF6813;
+    border-radius: 22.5px;
+    border: 1.0603px solid #353131;
+    filter: drop-shadow(6px 6px 0px rgb(32, 32, 32));
+   
+}
+.list li a{
+    font-family: "Recolata";
+    font-weight: 800;
+    color: black;
+
+}
+.list li{
+    margin-right: 40px;
+}
+.text__content{
+    text-align: center;
+}
+.text__content h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-family: "recolata";
+    font-weight: 800;
+}
+.text__content h1:nth-child(2){
+    margin-bottom: 58px;
+}
+.search__bar input{
+    width: 650px;
+    border-radius: 100px;
+    padding: 15px 90px 15px 50px;
+    font-size: 18px;
+    font-family: "recolata";
+    font-weight: 700;
+    text-transform: capitalize;
+    filter: drop-shadow(10px 6px 0px rgb(32, 32, 32));
+    background-color: #F0E9E0;
+    border: 1px solid #353131;
+}
+.search__bar{
+    position: relative;
+}
+.search{
+    position: absolute;
+    top: 50%;
+    right: 325px;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    padding: 8px;
+    border-radius: 50%;
+    font-weight: bold;
+    filter: drop-shadow(-5px -1px 0px #D0B6A7);
+    cursor: pointer;
+}
