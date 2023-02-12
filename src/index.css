@@ -54,6 +54,7 @@ button{
 }
 .grid{
   display: grid;
+  margin: auto;
 }
 .container{
   width: 1500px;

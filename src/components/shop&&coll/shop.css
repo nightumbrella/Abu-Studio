@@ -1,0 +1,8 @@
+.hero{
+    padding: 0 120px;
+}
+.coll__image{
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(129, 129, 129);
+    justify-content: center;
+}

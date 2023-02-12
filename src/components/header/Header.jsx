@@ -1,5 +1,8 @@
 import React from "react";
 import logo from "../../assets/image/Logo.png";
+import left__photo from '../../assets/image/left.png'
+import hero__photo from '../../assets/image/hero.png'
+import right__photo from '../../assets/image/right.png'
 import "./header.css";
 import { BsSearch } from "react-icons/bs";
 import { FaSearch } from "react-icons/fa";
@@ -32,6 +35,11 @@ const Header = () => {
             <input type="text" placeholder="search your brands" />
             <FaSearch className="search"/>
         </div>
+      </div>
+      <div className="photo__content">
+        <img src={left__photo} alt="left__photo" />
+        <img src={hero__photo} alt="hero__photo" />
+        <img src={right__photo} alt="right__photo" />
       </div>
     </div>
   );
