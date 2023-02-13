@@ -2,6 +2,7 @@
     padding: 0 120px;
     background-color: #F0E9E0;
     position: relative;
+    padding-bottom: 100px;
 }
 .top__section{
     /* border: 1p x solid black; */
@@ -57,8 +58,8 @@
     place-items: center;
 }
 .inner__grid img{
-    width: 300px;
-    padding: 30px 25px 70px;
+    width: 350px;
+    margin-bottom: 30px;
 }
 .inner__grid{
     border: 2px solid #EBA8A8;
@@ -71,7 +72,6 @@
     font-size: 70px;
     font-weight: 800;
     font-family: "Recolata";
-    /* margin-bottom: 35px; */
 }
 .collection__arrow{
     display: flex;
@@ -80,6 +80,7 @@
     font-weight: 600;
     color: #575757;
     align-items: center;
+    margin-bottom: 50px;
 }
 .collection__arrow p{
     margin-right: 200px;
@@ -95,6 +96,59 @@
     cursor: pointer;
 }
 
-
-
 /* !Collection */
+
+
+/* !Collection Grid */
+
+.inner__grid__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.inner__grid{
+    padding: 30px;
+}
+.inner__grid__title h3{
+    font-family: "Recolata";
+font-weight: 600;
+margin-bottom: 10px;
+font-size: 35px;
+}
+.start__list{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.aioutlineheart{
+    background-color: white;
+    font-size: 20px;
+    color: #FF6813;
+    padding: 10px;
+    border-radius: 50%;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+.aifillstar{
+    color: #FF6813 ;
+}
+.aifillstar:last-child{
+    margin-right: 10px;
+}
+.price__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price__section h4, h3{
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Recolata";
+}
+.price__section h3{
+    color: #C93032;
+}
+
+/* !Collection Grid */
