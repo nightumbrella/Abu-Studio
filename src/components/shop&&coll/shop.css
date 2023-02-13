@@ -1,8 +1,100 @@
 .hero{
     padding: 0 120px;
+    background-color: #F0E9E0;
+    position: relative;
 }
+.top__section{
+    /* border: 1p x solid black; */
+    justify-content: center;
+    background-color: #FAF5EC;
+    filter: drop-shadow(-10px 15px 0 black);
+    margin-bottom: 130px;
+}
+.hero::after{
+    content: url(../../assets/image/blue-sphire.png);
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -1370px;
+}
+
+.shop__inner h3{
+    font-size: 20px;
+    font-family: "Recolata";
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.shop__inner h1{
+    font-family: "Recolata";
+    font-size:60px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.shop__inner button{
+    display: flex;
+    background-color:#FF6813;
+    align-items: center;
+    padding: 22px 80px 22px 35px;
+    border-radius:100px;
+    border:1px solid #353131 ;
+    filter: drop-shadow(8px 5px 0 #000000);
+    font-family: "Thoma";
+    font-size: 20px;
+}
+.siappstore{
+    margin-right: 16px;
+}
+.shop img{
+    width: 470px;
+    margin-left: 50px;
+}
+
 .coll__image{
     grid-template-columns: repeat(3,1fr);
-    background-color: rgb(129, 129, 129);
+    /* background-color: rgb(129, 129, 129); */
     justify-content: center;
+    place-items: center;
 }
+.inner__grid img{
+    width: 300px;
+    padding: 30px 25px 70px;
+}
+.inner__grid{
+    border: 2px solid #EBA8A8;
+    border-radius: 20px;
+}
+
+/* !Collection */
+
+.collection h2{
+    font-size: 70px;
+    font-weight: 800;
+    font-family: "Recolata";
+    /* margin-bottom: 35px; */
+}
+.collection__arrow{
+    display: flex;
+    justify-content: center;
+    font-family: "Recolata";
+    font-weight: 600;
+    color: #575757;
+    align-items: center;
+}
+.collection__arrow p{
+    margin-right: 200px;
+}
+.bsarrowupright{
+    background-color: #FF6813;
+    filter: drop-shadow(-5px -5px 0 black);
+    padding: 20px;
+    box-sizing: content-box;
+    font-size: 50px;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+/* !Collection */

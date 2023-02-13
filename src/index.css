@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Recolata";
   src: url('../src/assets/fonts/Recoleta-Medium.woff') format(woff);
-  font-weight:Medium;
+  font-weight:600;
   font-style: normal;
 }
 @font-face {
@@ -43,10 +43,15 @@
   list-style: none;
   text-decoration: none;
 }
+body{
+  background-color: #FAF5EC;
+}
 button{
   cursor: pointer;
   outline: none;
   border: none;  
+  background: transparent ;
+  color: white;
 }
 .flex{
   display: flex;

@@ -4,24 +4,39 @@ import "./shop.css";
 import first from "../../assets/image/coll-1.png";
 import second from "../../assets/image/coll-2.png";
 import third from "../../assets/image/coll-3.png";
+import baby from '../../assets/image/baby.png'
 import { AiOutlineHeart, AiFillStar, AiOutlineStar } from "react-icons/ai";
+import {SiAppstore} from "react-icons/si"
 
 const Shop = () => {
   return (
     <div className="hero">
-      <div className="shop"></div>
+
+      <div className="shop top__section flex">
+        <div className="shop__inner">
+          <h3>Offer This Week</h3>
+          <h1>Suit For Baby Kids</h1>
+          <button><SiAppstore className="siappstore"/>Shop Now</button>
+        </div>
+        <div>
+      <img src={baby} alt="baby__photo" />
+        </div>
+        <div></div>
+      </div>
+
       <div className="collection">
         <h2>Favorite Collection</h2>
-        <div>
+
+        <div className="collection__arrow">
           <p>
             It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout
+            the <br/> readable content of a page when looking at its layout
           </p>
-          <BsArrowUpRight />
+          <BsArrowUpRight className="bsarrowupright"/>
         </div>
         <div className="grid coll__image">
 
-          <div>
+          <div className="inner__grid">
             <img src={first} alt="first__image" />
             <div>
               <div>
@@ -43,7 +58,7 @@ const Shop = () => {
             </div>
           </div>
 
-          <div>
+          <div className="inner__grid">
             <img src={second} alt="first__image" />
             <div>
               <div>
@@ -65,7 +80,7 @@ const Shop = () => {
             </div>
           </div>
 
-          <div>
+          <div className="inner__grid">
             <img src={third} alt="first__image" />
             <div>
               <div>

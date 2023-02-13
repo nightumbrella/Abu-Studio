@@ -1,6 +1,6 @@
 .header{
     padding: 0 120px 100px;
-    background-color: #f3f1ec;
+    background-color: #F0E9E0;
     position: relative;
     margin-bottom: 90px;
 }
@@ -21,6 +21,7 @@
 .auth button{
     font-family: "Recolata";
     font-weight: 800;
+    color: black;
 
 }
 .auth button:nth-child(1){
