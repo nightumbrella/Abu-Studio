@@ -1,0 +1,77 @@
+.subscribe{
+    background-color: #F0E9E0;
+    padding: 75px 120px 40px;
+    text-align: center;
+
+}
+.comp{
+    vertical-align: top;
+    align-items: start !important;
+    justify-content: space-between;
+}
+.flex h2{
+    font-family: "Recolata";
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+.contact__input{
+    position: relative;
+}
+.contact__input img{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.contact__input input{
+    width: 100%;
+    padding: 10px;
+    font-family: "Recolata";
+    padding-right: 50px;
+    font-weight: 800;
+    outline: none;
+    border: none;
+}
+.contact__btn{
+    display: flex;
+    background-color:#FF6813;
+    align-items: center;
+    padding: 22px 80px 22px 35px;
+    border-radius:100px;
+    border:1px solid #353131 ;
+    filter: drop-shadow(8px 5px 0 #000000);
+    font-family: "Tahoma";
+    font-size: 20px;
+}
+.contact__btn__icon{
+    margin-right: 5px;
+}
+.contact__send{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contact__icon{
+    padding: 5px;
+    box-sizing: content-box;
+    border:1px solid #FF6813;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 20px;
+
+
+}
+.social__icon{
+    margin-top: 20px;
+
+}
+.hrline{
+    border-top: 1px solid white;
+    margin-bottom: 10px;
+}
+.subscribe h1{
+    font-size: 16px;
+    font-family: "";
+}

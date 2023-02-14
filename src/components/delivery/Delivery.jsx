@@ -10,11 +10,20 @@ const Delivery = () => {
     <div className='delivery'>
         <h1>Our Delivery Process</h1>
         <div className='process grid'>
+            <div>
         <RiMoneyDollarCircleLine className='icons'/>
+    <h3>Money Back</h3>
+            </div>
         <img src={arrow} alt="" />
+        <div>
         <MdOutlineLocalShipping className='icons'/>
+    <h3>Free Shipping</h3>
+        </div>
         <img src={arrow} alt="" />
+        <div>
         <GiReceiveMoney className='icons'/>
+    <h3>Cash on Delivery</h3>
+        </div>
         </div>
     </div>
   )

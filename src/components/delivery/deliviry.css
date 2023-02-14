@@ -1,7 +1,6 @@
 .delivery{
     text-align: center;
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding: 80px 120px;
 }
 .delivery h1{
     padding-bottom: 80px;
@@ -12,7 +11,17 @@
 }
 .icons{
     font-size: 60px;
-    border: 1px solid #a8a8a8;
+    border: 2px solid #cac0af;
     padding: 10px;
     box-sizing: content-box;
+    border-radius: 5px;
+}
+#mb{
+    position: relative;
+}
+#mb::before{
+    content:"dsadada";
+    position: absolute;
+    top: -30px;
+    left: 0;
 }
