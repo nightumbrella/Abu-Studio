@@ -1,0 +1,18 @@
+.delivery{
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.delivery h1{
+    padding-bottom: 80px;
+}
+.process{
+    grid-template-columns: repeat(5,1fr);
+    place-items: center;
+}
+.icons{
+    font-size: 60px;
+    border: 1px solid #a8a8a8;
+    padding: 10px;
+    box-sizing: content-box;
+}
